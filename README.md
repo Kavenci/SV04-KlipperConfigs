@@ -22,7 +22,7 @@ ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration printer_data/config/KAMP
 3. in fluidd.cfg set virtual_sdcard path to your gcode files path.
 
 ## Slicer edits
-For the slicer setup I use prusaslicer and have 4 Physical printers setup, SV04 Main, SV04 Dual, SV04 Mirror and SV04 copy in order to coordinate what I want the printer to do
+For the slicer setup I use prusaslicer (have started converting to orca but not done yet) and have 4 Physical printers setup, SV04 Main, SV04 Dual, SV04 Mirror and SV04 copy in order to coordinate what I want the printer to do
 ### Global
 End G-code
 ```
