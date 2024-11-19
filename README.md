@@ -1,7 +1,7 @@
 # SV04-KlipperConfigs
 My klipper configs for sv04
 
-<ins>## Software Edits</ins>
+## Software Edits
 These should hopefully be drag and drop with minimal customizations if you have klipper, moonraker, KAMP and fluidd installed already, if not install the main KAMP directory as follows & follow other installation instructions
 
 ```
@@ -12,16 +12,16 @@ git clone https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration printer_data/config/KAMP
 ```
 
-<ins>## Hardware Edits</ins>
+## Hardware Edits
 1. Only one simple hardware mod is required, in each extruders breakout board move the heatbreak fan connector over from the fixed fan1 slot over to the free K-fan plug. This allows percentage control of the heatbreak fan and switching it off when extruder is not in use.
    
-<ins>## Config edits</ins>
+## Config edits
 
 1. Update "serial: /dev/serial/by-id/yourid" in printer.cfg to your printers serial port
 2. Adjust your second extuders offset under the T1 macro in macros.cfg ('SET_GCODE_OFFSET Y=15') - you'll have to calibrate this after getting the printer setup for accurate dual colour printing
 3. in fluidd.cfg set virtual_sdcard path to your gcode files path.
 
-<ins>## Slicer edits</ins>
+## Slicer edits
 For the slicer setup I use prusaslicer and have 4 Physical printers setup, SV04 Main, SV04 Dual, SV04 Mirror and SV04 copy in order to coordinate what I want the printer to do
 ### Global
 End G-code
